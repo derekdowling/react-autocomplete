@@ -1,16 +1,17 @@
 {
   "name": "react-autocomplete",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Updated for of Reakt's version",
   "main": "lib/main.js",
   "style": "lib/styles.css",
   "scripts": {
     "test": "echo \"no tests yet, just trust me\" && exit 0"
   },
-  "author": "",
+  "author": "Derek Dowling",
   "license": "MIT",
   "dependencies": {
-    "react": "0.10.0 - 0.11.x"
+    "react": "~0.12.1",
+    "reactify": "~0.16.0"
   },
   "devDependencies": {
     "jsx-loader": "^0.10.2",
@@ -22,6 +23,7 @@
     "react",
     "autocomplete",
     "combobox",
-    "a11y"
+    "a11y",
+    "browserify"
   ]
 }
